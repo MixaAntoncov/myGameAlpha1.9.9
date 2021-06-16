@@ -1,0 +1,113 @@
+<DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Моя игра</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="forest_technologie.css" rel="stylesheet" type="text/css"/>
+</head>
+
+    <canvas id="pixBox"></canvas>
+
+<body id="body">
+
+    <div id="topZon">
+        <div id="speeds">
+            <label id="divspeed05" for="speed05"><input id="speed05" type="radio" name="speed" value="05" onclick = "setSpeed05()">0.5x</label>
+            <label id="divspeed1" for="speed1"><input id="speed1" type="radio" name="speed" value="1" onclick = "setSpeed1()" checked>1x</label>
+            <label id="divspeed2" for="speed2"><input id="speed2" type="radio" name="speed" value="2" onclick = "setSpeed2()">2x</label>
+            <label id="divspeed4" for="speed4"><input id="speed4" type="radio" name="speed" value="4" onclick = "setSpeed4()">4x</label>
+        </div>
+    </div>
+
+    <div id="bootonZon">
+
+        <div id="interface">
+
+            <button class="mainButton" id="people" type="button" onclick="generatePeople()">ВРАГИ</button>
+
+            <button class="mainButton" id="Queen" type="button">СОЗДАТЬ КОРОЛЕВУ</button>
+
+            <button class="mainButton" id="Eat" type="button">СОЗДАТЬ ЕДУ</button>
+
+            <button class="mainButton" id="start" type="button">10</button>
+
+            <div class="mainButton" id="countOfCells">БУКАШЕК: <div id="countOfCell"></div></div>
+
+            <div class="mainButton" id="countOfPoints">ПОИНТОВ: <div id="countOfPoint"></div></div>
+
+        </div>
+    </div>
+
+    <button class="buttonForestshow" onclick = "showForestTechnologieBox()">ДТ</button>
+
+    <div class="forestNone">
+        <div class="forestTechnologieBox">
+            <button class="buttonForestNone" onclick = "noneForestTechnologieBox()">ЗАКР</button>
+            <div class="blokslills" id="queenskills">
+                <div class="headskills">КОРОЛЕВА</div>
+                <div class="headskills">
+                    <div class="branchlills" id="queenbranch1">
+                        <button class="buttonSkillDostup" id="maxHealthQueen1" onclick = "clickHP1()">HP1</button>
+                        <button class="buttonSkill" id="maxHealthQueen2" onclick = "clickHP2()">HP2</button>
+                        <button class="buttonSkill" id="maxHealthQueen3" onclick = "clickHP3()">HP3</button>
+                        <button class="buttonSkill" id="maxHealthQueen4" onclick = "clickHP4()">HP4</button>
+                        <button class="buttonSkill" id="maxHealthQueen5" onclick = "clickHP5()">HP5</button>
+                    </div>
+                    <div class="branchlills" id="queenbranch2">
+                        <button class="buttonSkillDostup" id="priceCell1" onclick = "clickPR1()">PR1</button>
+                        <button class="buttonSkill" id="priceCell2" onclick = "clickPR2()">PR2</button>
+                        <button class="buttonSkill" id="priceCell3" onclick = "clickPR3()">PR3</button>
+                        <button class="buttonSkill" id="priceCell4" onclick = "clickPR4()">PR4</button>
+                        <button class="buttonSkill" id="priceCell5" onclick = "clickPR5()">PR5</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blokslills" id="cellskills">
+                <div class="headskills">БУКАШКИ</div>
+                <div class="headskills">
+                    <div class="branchlills" id="cellbranch1">
+                        <button class="buttonSkillDostup" id="radiusScream1" onclick = "clickRS1()">RS1</button>
+                        <button class="buttonSkill" id="radiusScream2" onclick = "clickRS2()">RS2</button>
+                        <button class="buttonSkill" id="radiusScream3" onclick = "clickRS3()">RS3</button>
+                        <button class="buttonSkill" id="radiusScream4" onclick = "clickRS4()">RS4</button>
+                        <button class="buttonSkill" id="radiusScream5" onclick = "clickRS5()">RS5</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blokslills" id="eatskills">
+                <div class="headskills">ЕДА</div>
+                <div class="headskills">
+                    <div class="branchlills" id="eatbranch1">
+                        <button class="buttonSkillDostup" id="countOfEat1" onclick = "clickCE1()">CE1</button>
+                        <button class="buttonSkill" id="countOfEat2" onclick = "clickCE2()">CE2</button>
+                        <button class="buttonSkill" id="countOfEat3" onclick = "clickCE3()">CE3</button>
+                        <button class="buttonSkill" id="countOfEat4" onclick = "clickCE4()">CE4</button>
+                        <button class="buttonSkill" id="countOfEat5" onclick = "clickCE5()">CE5</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blokslills" id="pointskills">
+                <div class="headskills">ПОИНТЫ</div>
+                <div class="headskills">
+                    <div class="branchlills" id="pointbranch1">
+                        <button class="buttonSkillDostup" id="countOfPoint1" onclick = "clickCP1()">CP1</button>
+                        <button class="buttonSkill" id="countOfPoint2" onclick = "clickCP2()">CP2</button>
+                        <button class="buttonSkill" id="countOfPoint3" onclick = "clickCP3()">CP3</button>
+                        <button class="buttonSkill" id="countOfPoint4" onclick = "clickCP4()">CP4</button>
+                        <button class="buttonSkill" id="countOfPoint5" onclick = "clickCP5()">CP5</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="forest_technologie.js"></script>
+</body>
+
+
+</html>

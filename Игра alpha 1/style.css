@@ -1,0 +1,143 @@
+/*.box{
+    background-color: #d3d3d3;
+    border: 3px solid #727272;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 10px;
+    position:relative;
+    overflow:hidden;
+
+}*/
+
+
+body {
+    background: #222;
+    margin: 0rem;
+    /*min-height: 100vh;*/
+   }
+
+#pixBox{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #721414;
+}
+
+#body{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+#topZon{
+    background-color: #335a0e00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#speeds{
+    background-color: #8a8a8a;
+    border-radius: 10px;
+    opacity: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sp:checked{
+    background-color: #2f0e5a;
+}
+
+#speed05{
+    display: none;
+}
+
+#speed1{
+    display: none;
+}
+
+#speed2{
+    display: none;
+}
+
+#speed4{
+    display: none;
+}
+
+#divspeed05{
+    color: #ffffff;
+    background-color: #333333;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 2px;
+    padding: 4px;
+}
+
+#divspeed1{
+    color: #ffffff;
+    background-color: #333333;
+    margin-right: 2px;
+    padding: 4px;
+}
+
+#divspeed2{
+    color: #ffffff;
+    background-color: #333333;
+    margin-right: 2px;
+    padding: 4px;
+}
+
+#divspeed4{
+    color: #ffffff;
+    background-color: #333333;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4px;
+}
+
+#bootonZon{
+    background-color: #335a0e00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#interface{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #5a0e0e;
+    border: 3px solid #380707;
+    opacity: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainButton{
+    background-color: #2f0e5a;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 20px 10px;
+    padding: 5px;
+}
+
+#countOfCell::before{
+
+}
+
+#countOfPoint::before{
+
+}

@@ -1,0 +1,96 @@
+.buttonForestShow{
+    position: fixed;
+    left: 95%;
+    top: 10%;
+    right: 2%;
+    bottom: 85%;
+    background-color: #777777;
+    color: #ffffff;
+    opacity: 30%;
+}
+
+.buttonForestNone{
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    right: 2%;
+    bottom: 85%;
+    background-color: #777777;
+    color: #ffffff;
+    opacity: 30%;
+}
+
+.forestNone{
+    position: fixed;
+    left: 101%;
+    top: 10%;
+    bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+    transition: 1.5s;
+}
+
+.forestTechnologieBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #505050;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #1f1f1f;
+    opacity: 50%;
+}
+
+.blokslills{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headskills{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.branchlills{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonSkill{
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: #353535;
+    color: #858585;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonSkillDostup{
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: #9e9e9e;
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonSkillActive{
+    margin: 15px 5px;
+    padding: 5px;
+    background-color: #2f0e5a;
+    color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
